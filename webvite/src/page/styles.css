@@ -1,0 +1,140 @@
+.container_home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    padding: 8.0rem 15.8rem;
+    background-image: url('../assets/bg.svg');
+    background-size:cover;
+
+    color: white;
+}
+.img_logo{
+    margin-bottom: 6.0rem;
+}
+.container_left h1{
+    margin-bottom: 4.0rem;
+    width: 489px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+.content_avatar_exemple_spans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.8rem;
+    margin-bottom: 4.8rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.content_avatar_exemple_spans span{
+    color: #129E57;
+}
+.content_form{
+    display: flex;
+
+    gap: 0.6rem;
+    margin-bottom: 1.6rem;
+}
+.content_form input{
+    width: 306px;
+    height: 58px;
+    padding-left: 2.4rem;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #C4C4CC;
+
+    background: #202024;
+    border: 1px solid #323238;
+
+    border: none;
+    border-radius: 4px;
+}
+.content_form button{
+    width: 171px;
+    height: 58px;
+
+    background: #F7DD43;
+    border: none;
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #09090A;
+
+    cursor: pointer;
+}
+.content_form button:hover{
+    opacity: 0.9;
+}
+.p{
+    width: 400px;
+    margin-bottom: 4.0rem;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+
+    color: #8D8D99;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+    width: 489px;
+    height: 102px;
+    padding-top: 4.0rem;
+
+    border-top: 1px solid #323238;
+}
+.content_footer{
+    display: flex;
+    align-items: center;
+    
+    gap: 2.4rem;
+
+    color: #E1E1E6;
+}
+.left_border_footer{
+    border-left: 1px solid #323238;
+}
+.content_info_footer{
+    display: flex;
+    flex-direction: column;
+}
+.content_info_footer strong{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+
+}
+.content_info_footer span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+
+}
